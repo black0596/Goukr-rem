@@ -1,0 +1,253 @@
+.clearfix {
+  zoom: 1; }
+  .clearfix:after {
+    display: block;
+    clear: both;
+    content: ''; }
+
+a {
+  text-decoration: none; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 20px; }
+
+ul li {
+  list-style: none; }
+
+.wrap {
+  width: 16rem; }
+  .wrap header {
+    background: #262626;
+    height: 2.2rem;
+    border-top: 1px solid #000000;
+    border-bottom: 0.1rem solid #49caac;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 8; }
+    .wrap header .s1 {
+      background: url("../img/nav_img.png") no-repeat;
+      background-size: 100%;
+      width: 1.5rem;
+      height: 1.2rem;
+      position: absolute;
+      top: 0.45rem;
+      left: 0.4rem; }
+    .wrap header .s2 {
+      background: url("../img/tv_img.png") no-repeat;
+      width: 1.45rem;
+      height: 1.15rem;
+      background-size: 100%;
+      position: absolute;
+      top: 0.45rem;
+      right: 0.4rem; }
+    .wrap header h1 {
+      background: url("../img/logo_img.png") no-repeat center;
+      background-size: 100%;
+      width: 6.325rem;
+      height: 1.05rem;
+      margin: 0 auto;
+      margin-top: 0.65rem; }
+  .wrap .content {
+    margin-top: 2.3rem; }
+    .wrap .content .user {
+      font-size: 0.7rem;
+      background: #fafafa; }
+      .wrap .content .user .al {
+        width: 8rem;
+        float: left;
+        height: 2.05rem;
+        color: #7e7d83; }
+        .wrap .content .user .al p {
+          width: 5.15rem;
+          height: 1.5rem;
+          background: url("../img/user.png") no-repeat;
+          background-size: contain;
+          text-align: right;
+          line-height: 1.5rem;
+          margin-top: 0.45rem;
+          margin-left: 1.45rem; }
+      .wrap .content .user .ar {
+        width: 8rem;
+        position: relative;
+        height: 2.05rem;
+        color: #7e7d83;
+        float: left; }
+        .wrap .content .user .ar p {
+          width: 5.15rem;
+          height: 1.5rem;
+          background: url("../img/sigin.png") no-repeat;
+          background-size: contain;
+          text-align: right;
+          line-height: 1.5rem;
+          margin-top: 0.45rem;
+          margin-left: 1.45rem; }
+        .wrap .content .user .ar span {
+          width: 1px;
+          height: 1.45rem;
+          position: absolute;
+          left: 0;
+          top: 0.25rem;
+          background: #999; }
+  .wrap .banner {
+    width: 16rem;
+    height: 7.8rem;
+    position: relative; }
+    .wrap .banner img {
+      width: 100%;
+      height: 100%; }
+    .wrap .banner p {
+      width: 100%;
+      height: 1.85rem;
+      font-size: 0.75rem;
+      line-height: 1.85rem;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      text-align: center;
+      color: #fff;
+      background: rgba(0, 0, 0, 0.5); }
+  .wrap ul {
+    padding: 0 0.4rem; }
+    .wrap ul li {
+      border-bottom: 1px solid #efefef;
+      font-size: 0.7rem;
+      height: 2rem;
+      line-height: 2rem;
+      padding-left: 0.3rem;
+      width: 100%; }
+      .wrap ul li:nth-child(7) {
+        border-bottom: none; }
+  .wrap .con2 {
+    border-top: 0.1rem solid #57c0af; }
+    .wrap .con2 .one {
+      height: 2rem;
+      line-height: 2rem;
+      border-bottom: 0.05rem solid #e8e8e8;
+      background: #f8f8f8;
+      padding: 0 0.75rem; }
+      .wrap .con2 .one h3 {
+        float: left;
+        font-size: 0.7rem; }
+      .wrap .con2 .one span {
+        width: 1.45rem;
+        height: 1.45rem;
+        background: url("../img/gend.png") no-repeat;
+        background-size: 100%;
+        float: right;
+        margin-top: 0.25rem; }
+    .wrap .con2 ul {
+      height: 2.05rem;
+      border-bottom: 0.05rem solid #ccc; }
+      .wrap .con2 ul li {
+        width: 3.1rem;
+        float: left;
+        height: 2rem;
+        text-align: center;
+        font-size: 0.7rem; }
+        .wrap .con2 ul li:hover {
+          border-bottom: 0.1rem solid red;
+          z-index: 2;
+          margin-bottom: -0.1rem; }
+    .wrap .con2 .xk .tit {
+      height: 6.5rem;
+      padding-left: 0.7rem; }
+      .wrap .con2 .xk .tit p {
+        font-size: 0.7rem;
+        line-height: 2rem; }
+      .wrap .con2 .xk .tit img {
+        width: 5.2rem;
+        height: 3.7rem;
+        float: left; }
+      .wrap .con2 .xk .tit span {
+        width: 8.3rem;
+        float: left;
+        margin-left: 0.7rem;
+        color: #8c8c8c;
+        font-size: 0.65rem;
+        line-height: 1.2rem; }
+    .wrap .con2 .xk ol {
+      padding: 0 0.4rem; }
+      .wrap .con2 .xk ol li {
+        color: #272727;
+        font-size: 0.7rem;
+        border-top: 1px solid #ccc;
+        line-height: 2rem;
+        height: 2rem;
+        width: 100%;
+        padding-left: 0.3rem; }
+  .wrap .bot {
+    height: 2.15rem;
+    background: #fafafa;
+    padding-top: 0.85rem;
+    border-bottom: 0.1rem solid #57c0af; }
+    .wrap .bot .bot_t {
+      width: 5.05rem;
+      margin: 0 auto; }
+      .wrap .bot .bot_t span {
+        background: url("../img/top.png") no-repeat;
+        background-size: 1.5rem 1.5rem;
+        width: 1.5rem;
+        height: 1.5rem;
+        float: left; }
+      .wrap .bot .bot_t b {
+        font-size: 0.7rem;
+        color: #9f9ea3;
+        float: left;
+        line-height: 1.5rem;
+        margin-left: 0.5rem; }
+  .wrap footer {
+    height: 2.875rem;
+    background: #262626;
+    padding-top: 0.875rem; }
+    .wrap footer .box {
+      width: 5.95rem;
+      float: left;
+      padding-left: 2.05rem;
+      height: 1.95rem; }
+      .wrap footer .box strong {
+        background: url("../img/tv.png") no-repeat;
+        width: 1.45rem;
+        height: 1.15rem;
+        background-size: 100%;
+        float: left;
+        margin-top: 0.5rem; }
+      .wrap footer .box span {
+        font-size: 0.7rem;
+        color: #b9b9b9;
+        float: left;
+        margin-left: 0.075rem;
+        line-height: 1.95rem; }
+    .wrap footer .box2 {
+      width: 6.3rem;
+      float: left;
+      height: 1.95rem;
+      padding-left: 1.7rem;
+      position: relative; }
+      .wrap footer .box2 strong {
+        background: url("../img/ip.png") no-repeat;
+        width: 0.65rem;
+        height: 1.15rem;
+        background-size: 100%;
+        float: left;
+        margin-top: 0.5rem; }
+      .wrap footer .box2 span {
+        font-size: 0.7rem;
+        color: #b9b9b9;
+        float: left;
+        margin-left: 0.075rem;
+        line-height: 1.95rem; }
+      .wrap footer .box2 .zj {
+        width: 1px;
+        height: 1.95rem;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: #666; }
+
+/*# sourceMappingURL=goukr.css.map */
